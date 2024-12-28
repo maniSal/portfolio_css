@@ -1,0 +1,104 @@
+body{
+  background-color: #86A788;
+  font-family: 'Roboto';
+  
+}
+h2 {
+ text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  text-align: center;
+  
+}
+
+.photo img{
+  border-radius: 15px;
+}
+.resume p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+}
+.navbar {
+  display: flex;
+  justify-content: flex-end; /* Align items horizontally */
+  background-color: #333;
+  }
+  .list {
+    list-style-type: none;    
+            display: flex;
+
+  }
+  .list li {
+    justify-content: space-between;
+    margin:30px;
+  }
+  .list li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    justify-content: space-between;
+  }
+  #Work h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #444;
+  }
+ #Work table {
+  width: 75%;
+ align-items: center;
+ margin: auto;
+ }
+ .projet {
+  align-items: center;
+  list-style-type: none;    
+          display: flex;
+
+}
+.projet li {
+  justify-content: space-between;
+  margin:50px;
+}
+ .projet li a {
+  font-size: 20px;
+  color: beige;
+  justify-content: space-between;
+
+
+ }
+ #Contact h1 {
+  padding: 5px;
+ }
+ #Contact form {
+  display: flex;
+  justify-content:center;
+  flex-direction: column;
+  padding: 20%;
+  padding-top: 20px;
+  gap: 5px;
+ }
+
+#Contact input,textarea {
+
+  padding: 10px;
+  padding-top: 10px;
+  border-radius: 5px;
+}
+footer{
+  display: block;
+  justify-content: center; /* Align items horizontally */
+  background-color: #333;
+  padding: 20px;
+  text-align: center;
+}
+footer p{
+  font-size: 20px;
+  color: beige;
+  margin: 0;
+}

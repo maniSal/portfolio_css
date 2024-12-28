@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<br lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <title>My portfolio</title>
+    
+</head>
+<br>
+<!-- the nav bar on the header section-->
+<body>
+<header>
+    <nav class="navbar">
+        <ul class="list">
+            <li><a href="#Home"> Home</a></li>
+            <li><a href="#About"> About</a></li>
+            <li><a href="#Work"> Work</a></li>
+            <li><a href="#Resume"> Resume</a></li>
+            <li><a href="#Contact"> Contact</a></li>
+        </ul>
+    </nav>
+
+</header>
+<!-- home , about work and resume in the main -->
+<main>
+    <section id="Home"> 
+        <h2> This video show you what could I do for you </h2>
+        <video width="300" height="200" controls>
+
+            <source src="/assets/video.mp4" type="video/mp4" />
+        
+        
+        </video>
+    </section>
+    <section id="About">
+        <div class="container">
+            <div class="photo">
+                <h2>Welcome to Amani's Portfolio</h2>
+                <h3>Let's dive in!</h3>
+                <img src="/assets/photo2.jpg" alt="a cartoon pic for fun" width="300px" height="300px">
+            </div>
+            <div class="content">
+                <article class="resume">
+                    <p>
+                        I am a highly motivated graduate student in networking with a strong foundation in computer science principles and programming languages. Eager to leverage academic knowledge and project experience to contribute to the development of innovative software solutions.
+                    </p>
+                </article>
+            </div>
+        </div>
+
+    </section>
+    <section id="Work">
+        <table border="1">
+           <h1> Let's Know each other more !</h1>
+           <br> <thead> This table represent my achivements till the time you are reading  </thead> </br>
+            <tbody> 
+                <tr>
+                    
+                    <td>gomycode </td>
+                    <td>recent</td>
+                </tr>
+                <tr>
+                    
+                    <td>Master Computer Systems & Networs </td>
+                    <td>2024</td>
+                </tr>
+                <tr>
+                    <td>Bachelor Computer System</td>
+                    <td>2022</td>
+                </tr>
+                <tr></tr>
+                    <td>Hight School diploma in science</td>
+                    <td>2019</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="Resume"></section>
+    <h2> Discover my recent project !</h2>
+    <ul class="projet">
+        <li><a href="#project1"> A Web applicayion for a dentiste</a></li> <!-- links for the projects-->
+        <li><a href="#project2"> A Web application for a smart home </a></li>
+    </ul>
+         <!-- I used forms to get the informations of contacts -->
+    <section id="Contact">
+        <h1> Contact Us </h1>
+        <br>
+           <form action="">
+            <label>First Name : </label>
+           <input type="text" name="name" placeholder="Type your name here" /> </br>
+         <br>  <label>Surename : </label> 
+           <input type="text" name="sname" placeholder="Type your Surename here" /> </br>
+         <br>  <label>Email : </label>
+           <input type="email" name="email" placeholder="Type your email" /> </br>
+          <br> <label>Phone number : </label>
+           <input type="number" name="phone" placeholder="Type your phone number" /> </br>
+         <br>  <label>Message: </label> </br>
+           <textarea name="message" cols="30" rows="5">
+           </textarea> 
+           <br>  
+           <input type="submit" value="Submit" /> </br>
+           </form>
+     
+    </section>
+    <!-- I used forms to get the informations of contacts -->
+</main>
+ <footer>
+   <p>© 2024 SALMI AMANI. All right reserved. </p>
+   <p>My email : <a href="mailto:selmiamani05@gmail.com">selmiamani05@gmail.com</a></p>
+ </footer>
+</body>
+</html>
+<!-- I used section to be more organized-->
